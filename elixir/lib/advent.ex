@@ -5,5 +5,5 @@ defmodule Advent do
 
   alias Advent.Captcha
 
-  def day_one(input), do: Captcha.solve(input)
+  def day_one(input, type), do: Captcha.solve(input, type)
 end
