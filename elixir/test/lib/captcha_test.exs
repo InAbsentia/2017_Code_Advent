@@ -1,5 +1,5 @@
 defmodule Advent.CaptchaTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
   alias Advent.Captcha
 
